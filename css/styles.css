@@ -108,6 +108,9 @@ a:hover {
     .flex-container {
       height: auto;
     }
+    .flex-rubrik{
+      visibility:hidden;
+    }
   }
   nav ul li {
     display: block;
