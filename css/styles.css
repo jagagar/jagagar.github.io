@@ -147,7 +147,7 @@ p.text {
   gap: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 60vh;
+  height: 40vh;
   align-items: flex-start;
 }
 .flex-container > div {
