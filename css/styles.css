@@ -171,7 +171,7 @@ p.text {
   flex-grow: 1;
   flex-basis: 100%;
   font-size: 1.2rem;
-  overflow: scroll;
+  overflow: auto;
  
 }
 
