@@ -122,7 +122,8 @@ a:hover {
     }
     .flex-container>div{
      overflow:auto;
-     min-height: 200px;
+     min-height: 25vh;
+    
     }
   }
   /* @media screen and (max-width: 400px) {
