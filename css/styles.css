@@ -25,11 +25,8 @@ nav {
 label.logo {
   font-size: 35px;
   line-height: 80px;
-  padding: 0 25px;
+  padding: 0 100px;
   font-weight: bold;
-  margin-top: auto;
-  margin-bottom: auto;
-  float:left;
 }
 nav ul {
   float: right;
@@ -127,9 +124,6 @@ a:hover {
       overflow: auto;
       min-height: 25vh;
     }
-    img.logo{
-      display: none;
-    }
   }
   /* @media screen and (max-width: 400px) {
     
@@ -211,10 +205,4 @@ p.text {
   text-align: center;
   padding:  5px 0;
   font-size: 1.2 rem;
-}
-img.logo{
-width:141px;
-height:auto;
-padding: 5px;
-float:left;
 }
