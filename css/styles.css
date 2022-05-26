@@ -29,7 +29,7 @@ label.logo {
   font-weight: bold;
   margin-top: auto;
   margin-bottom: auto;
-  float:left;
+  float: left;
 }
 nav ul {
   float: right;
@@ -130,7 +130,7 @@ a:hover {
       overflow: auto;
       min-height: 25vh;
     } */
-    img.logo{
+    img.logo {
       display: none;
     }
   }
@@ -194,7 +194,6 @@ p.text {
   width: 100vw;
 }
 .flex-rubrik {
- 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -204,7 +203,7 @@ p.text {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-  
+
   padding: 10px;
   justify-content: space-evenly;
   justify-items: start;
@@ -212,12 +211,35 @@ p.text {
 
 .grid-container > div {
   text-align: center;
-  padding:  5px 0;
+  padding: 5px 0;
   font-size: 1.2 rem;
 }
-img.logo{
-width:141px;
-height:auto;
-padding: 5px;
-float:left;
+img.logo {
+  width: 141px;
+  height: auto;
+  padding: 5px;
+  float: left;
+}
+.flex-container-story {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  flex-basis: 60%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-container {
+  font-size: 1.2rem;
+}
+.story {
+  color: #ffd700;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+.story:hover {
+  background-color: rgb(42, 41, 41);
 }
