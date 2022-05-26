@@ -106,6 +106,7 @@ a:hover {
     .rubrik {
       padding-left: 20px;
     }
+   
   }
   @media screen and (max-width: 540px) {
     /* .flex-container {
@@ -130,9 +131,13 @@ a:hover {
       overflow: auto;
       min-height: 25vh;
     } */
+     .grid-container>div{
+      font-size: 1rem;
+    }
     img.logo {
       display: none;
     }
+    
   }
   /* @media screen and (max-width: 400px) {
     
@@ -199,41 +204,22 @@ p.text {
   align-items: center;
   min-height: 200px;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-
+ font-size: 1.2 rem;
   padding: 10px;
   justify-content: space-evenly;
   justify-items: start;
+  font-size: 1.2rem;
 }
 
 .grid-container > div {
   text-align: center;
   padding: 5px 0;
-  font-size: 1.2 rem;
-}
-img.logo {
-  width: 141px;
-  height: auto;
-  padding: 5px;
-  float: left;
-}
-.flex-container-story {
-  display: flex;
-  justify-content: center;
-}
-.text {
-  flex-basis: 60%;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.grid-container {
-  font-size: 1.2rem;
+ 
 }
 .story {
   color: #ffd700;
@@ -243,3 +229,20 @@ img {
 .story:hover {
   background-color: rgb(42, 41, 41);
 }
+
+img.logo {
+  width: 141px;
+  height: auto;
+  padding: 5px;
+  float: left;
+}
+
+.text {
+  flex-basis: 60%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
