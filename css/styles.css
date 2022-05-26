@@ -106,7 +106,6 @@ a:hover {
     .rubrik {
       padding-left: 20px;
     }
-   
   }
   @media screen and (max-width: 540px) {
     /* .flex-container {
@@ -131,13 +130,12 @@ a:hover {
       overflow: auto;
       min-height: 25vh;
     } */
-     .grid-container>div{
+    .grid-container > div {
       font-size: 1rem;
     }
     img.logo {
       display: none;
     }
-    
   }
   /* @media screen and (max-width: 400px) {
     
@@ -209,7 +207,7 @@ p.text {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
- font-size: 1.2 rem;
+  font-size: 1.2 rem;
   padding: 10px;
   justify-content: space-evenly;
   justify-items: start;
@@ -219,7 +217,6 @@ p.text {
 .grid-container > div {
   text-align: center;
   padding: 5px 0;
- 
 }
 .story {
   color: #ffd700;
@@ -244,5 +241,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-
+.flex-next-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  position: relative;
+  bottom: -100px;
+  width: 100vw;
+}
