@@ -13,6 +13,13 @@ body {
   background-size: cover;
   color: white;
 }
+h1 {
+  text-transform: uppercase;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 nav {
   background-color: #210202;
   height: 80px;
@@ -22,6 +29,8 @@ nav {
 .link-container {
   width: 90%;
 }
+
+/* Allt som har med logon Smisksidan att göra */
 label.logo {
   font-size: 35px;
   line-height: 80px;
@@ -31,6 +40,14 @@ label.logo {
   margin-bottom: auto;
   float: left;
 }
+label.logo a {
+  color: white;
+}
+label.logo a:hover {
+  color: white;
+  background-color: #210202;
+}
+
 nav ul {
   float: right;
   margin-right: 20px;
@@ -108,28 +125,7 @@ a:hover {
     }
   }
   @media screen and (max-width: 540px) {
-    /* .flex-container {
-      height: auto;
-    }
-    .flex-rubrik {
-      display: ;
-    }
-    .rubrik{
-      display:none;
-    }
-    .flex-footer {
-      display: none;
-    }
-    .footer {
-      display: none;
-    }
-    .rubrik {
-      display: none;
-    }
-    .flex-container > div {
-      overflow: auto;
-      min-height: 25vh;
-    } */
+   
     .grid-container > div {
       font-size: 1rem;
     }
@@ -186,16 +182,16 @@ p.text {
   font-size: 1.2rem;
   overflow: auto;
 }
-
-.flex-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 40px;
-  position: relative;
-  bottom: -100px;
-  width: 100vw;
+.intext-link {
+  color: #ffd700;
 }
+.intext-link:hover {
+  background-color: rgb(42, 41, 41);
+  transition: 0.15s;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
 .flex-rubrik {
   display: flex;
   justify-content: center;
@@ -203,6 +199,7 @@ p.text {
   min-height: 200px;
 }
 
+/* container för alla stories på stories0X */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -213,11 +210,12 @@ p.text {
   justify-items: start;
   font-size: 1.2rem;
 }
-
 .grid-container > div {
   text-align: center;
   padding: 5px 0;
 }
+
+/*  länkar till berättelserna på stories0X */
 .story {
   color: #ffd700;
   padding: 7px 13px;
@@ -225,6 +223,7 @@ p.text {
 }
 .story:hover {
   background-color: rgb(42, 41, 41);
+  transition: 0.15s;
 }
 
 img.logo {
@@ -234,14 +233,27 @@ img.logo {
   float: left;
 }
 
+/* Sidorna med berättelser */
+.flex-container-story {
+  display: flex;
+  justify-content: center;
+}
 .text {
   flex-basis: 60%;
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
+
+/* Nyare/äldre knappar (stories0x, storyxxx) */
 .flex-next-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  position: relative;
+  bottom: -100px;
+  width: 100vw;
+}
+
+.flex-footer {
   display: flex;
   justify-content: center;
   align-items: center;
