@@ -236,6 +236,9 @@ p.text {
   background-color: rgb(42, 41, 41);
   transition: 0.15s;
 }
+.story:visited{
+  color: #c6be91;
+}
 
 img.logo {
   width: 141px;
