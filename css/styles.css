@@ -87,7 +87,7 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
   .checkbtn {
     display: block;
   }
@@ -212,7 +212,7 @@ p.text {
 /* container för alla stories på stories0X */
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   gap: 10px;
   font-size: 1.2 rem;
   padding: 10px;
