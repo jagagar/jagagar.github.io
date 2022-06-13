@@ -278,6 +278,7 @@ img.logo {
   position: relative;
   bottom: -100px;
   width: 100vw;
+  padding-bottom: 15px;
 }
 .smiskbild{
     display: block;
