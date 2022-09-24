@@ -138,17 +138,7 @@ a:hover {
     }
    
   }
-  @media screen and (max-width: 540px) {
-   
-    .grid-container > div {
-      font-size: 0.8rem;
-      margin-right: -40px;
-    }
-    img.logo {
-      display: none;
-    }
-   
-  }
+ 
   /* @media screen and (max-width: 400px) {
     
    
@@ -299,4 +289,17 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 10px;
 margin-bottom: 10px;
+}
+@media screen and (max-width: 540px) {
+   
+  .grid-container > div {
+    font-size: 0.8rem;
+    margin-right: -40px;
+  }
+  img.logo {
+    display: none;
+  }
+ .text{
+  flex-basis: 80%;
+ }
 }
