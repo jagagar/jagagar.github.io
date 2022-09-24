@@ -290,7 +290,7 @@ margin-right: auto;
 margin-top: 10px;
 margin-bottom: 10px;
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 610px) {
    
   .grid-container > div {
     font-size: 0.8rem;
