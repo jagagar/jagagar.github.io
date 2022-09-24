@@ -300,6 +300,9 @@ margin-bottom: 10px;
     display: none;
   }
  .text{
-  flex-basis: 80%;
+  flex-basis: 80%; 
+ }
+ .grid-container{
+  grid-template-columns: auto 0px;
  }
 }
